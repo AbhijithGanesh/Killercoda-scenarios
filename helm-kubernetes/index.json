@@ -3,10 +3,8 @@
   "description": "The most simple way of running kubernetes packages, manifests using helm.",
   "details": {
     "intro": {
-      "intro": {
-        "text": "intro/introduction.md",
-        "bareground": "intro/install.sh"
-      }
+      "text": "intro/introduction.md",
+      "bareground": "intro/install.sh"
     }
   },
   "steps": [
