@@ -15,4 +15,4 @@ Common actions for Helm:
 - helm install: upload the chart to Kubernetes
 - helm list: list releases of charts
 
-**To know more ,run** : `helm help`
+**To know more run** : `helm help`
