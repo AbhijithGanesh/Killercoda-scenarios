@@ -5,14 +5,15 @@
     "intro": {
       "text": "intro/introduction.md",
       "bareground": "intro/install.sh"
-    }
+    },
+    "steps": [
+      {
+        "title": "Working with helm",
+        "text": "step-one/working.md"
+      }
+    ]
   },
-  "steps": [
-    {
-      "title": "Working with helm",
-      "text": "step-one/working.md"
-    }
-  ],
+
   "backend": {
     "imageid": "kubernetes-kubeadm-1node"
   }
