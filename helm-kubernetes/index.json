@@ -1,0 +1,12 @@
+{
+  "title": "Helm with Kubernetes",
+  "description": "The most simple way of running kubernetes packages, manifests using helm.",
+  "details": {
+    "intro": {
+      "text": "introduction.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
