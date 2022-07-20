@@ -5,7 +5,7 @@
     "intro": {
       "intro": {
         "text": "intro/introduction.md",
-        "background": "intro/install.sh"
+        "foreground": "intro/install.sh"
       }
     }
   },
