@@ -12,7 +12,7 @@
   "steps": [
     {
       "title": "Working with helm",
-      "text": "step=one/working.md"
+      "text": "step-one/working.md"
     }
   ],
   "backend": {
