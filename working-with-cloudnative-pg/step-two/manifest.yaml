@@ -6,9 +6,10 @@ metadata:
 spec:
   capacity:
     storage: 1Gi
+  volumeMode: FileSystem
+  storageClassName: "local-path"
   accessModes:
     - ReadWriteOnce
-  storageClassName: "ssd"
   persistentVolumeReclaimPolicy: Retain
   claimRef:
     name: cloudnative-pvc
