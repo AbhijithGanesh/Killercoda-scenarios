@@ -6,9 +6,13 @@ I am assuming you have some experience working with Kubernetes, even otherwise, 
 
 ## Kubernetes Glossary Terms
 
+- ### Persistent Volume Claim:
+
+This is the extension of Kubernetes API that allows users to abstract claims of [Persistent Volume](https://kubernetes.io/docs/concepts/storage/persistent-volumes/). A PersistentVolumeClaim (PVC) is a request for storage by a user. It is similar to a Pod. Pods consume node resources and PVCs consume PV resources
+
 - ### Custom Resource Definition:
 
-  This is the essential part of the operator that allows us to define custom API Resources (i.e Kubernetes API resources). A resource is an endpoint in the Kubernetes API that stores a collection of API objects of a certain kind; for example, the built-in pods resource contains a collection of Pod objects.
+This is the essential part of the operator that allows us to define custom API Resources (i.e Kubernetes API resources). A resource is an endpoint in the Kubernetes API that stores a collection of API objects of a certain kind; for example, the built-in pods resource contains a collection of Pod objects.
 
 - ### Postgres Instance
 
@@ -24,6 +28,16 @@ A pod is the smallest computing unit that can be deployed in a Kubernetes cluste
 Service A service is an abstraction that exposes as a network service an application that runs on a group of pods and standardizes important features such as service discovery across applications, load balancing, failover, and so on.
 
 ## Working with kubernetes practically
+
+### Addition of Persistent Volume Claim
+
+The cloudnative pg chart requires a PVC to be accepted. To apply it, run the following command.
+
+```bash
+kubectl apply -f 
+```
+
+### Addition of the Postgres cluster
 
 To run a server, you need to configure it according to this manifest file
 
