@@ -3,7 +3,7 @@
   "description": "Understanding and working around",
   "details": {
     "intro": {
-      "text": "intro/introduction.md",
+      "text": "intro/introduction.md"
     },
     "steps": [
       {
