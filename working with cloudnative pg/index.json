@@ -1,0 +1,24 @@
+{
+  "title": "Working with Cloudnatiev Postgres Operator",
+  "description": "Understanding and working around",
+  "details": {
+    "intro": {
+      "text": "intro/introduction.md",
+      "background": "intro/install.sh"
+    },
+    "steps": [
+      {
+        "title": "Installing CloudNative PG",
+        "text": "step-one/working.md",
+        "background": "step-one/install.sh"
+      },
+      {
+        "title": "Spinning up a new Postgres Cluster",
+        "text": "step-two/working.md"
+      }
+    ]
+  },
+  "backend": {
+    "imagied": "Kubernetes-kubeadm-1-node"
+  }
+}
