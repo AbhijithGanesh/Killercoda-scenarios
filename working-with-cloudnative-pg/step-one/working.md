@@ -8,6 +8,10 @@ There are two ways to install the manifest of the [CloudNativePG](cloudnative-pg
 
 The github link for the manifest is added [here](raw.githubusercontent.com/cloudnative-pg/cloudnative-pg/release-1.16/releases/cnpg-1.16.0.yaml)
 
+To install the manifest , you can run the following command
+
+`kubectl apply -f <link>`
+
 ### Helm Chart
 
 You can run the following commands to install the helm chart
