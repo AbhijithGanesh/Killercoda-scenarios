@@ -12,7 +12,7 @@ spec:
     - ReadWriteMany
   persistentVolumeReclaimPolicy: Retain
   claimRef:
-    name: cluster-example-1
+    name: "cluster-example-1"
     namespace: default
   local:
     path: /mnt/disk/ssd/

@@ -6,7 +6,7 @@ There are two ways to install the manifest of the [CloudNativePG](cloudnative-pg
 
 ### GitHub Manifest
 
-The github link for the manifest is added [here](raw.githubusercontent.com/cloudnative-pg/cloudnative-pg/release-1.16/releases/cnpg-1.16.0.yaml)
+The github link for the manifest is added [here](https://raw.githubusercontent.com/cloudnative-pg/cloudnative-pg/release-1.16/releases/cnpg-1.16.0.yaml)
 
 To install the manifest , you can run the following command
 
