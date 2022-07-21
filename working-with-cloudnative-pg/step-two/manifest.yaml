@@ -2,20 +2,28 @@ apiVersion: v1
 kind: PersistentVolume
 metadata:
   name: cloudnative-pv
-  namespace: default
   labels:
     type: local
 spec:
+  storageClassName: "local-path"
   capacity:
     storage: 1Gi
-  volumeMode: "Block"
-  storageClassName: "local-path"
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   persistentVolumeReclaimPolicy: Retain
   claimRef:
     name: cloudnative-pvc
     namespace: default
+  local:
+    path: /mnt/disk/ssd/
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+      - matchExpressions:
+        - key: kubernetes.io/hostname
+          operator: In
+          values:
+          - example-node
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
@@ -23,6 +31,7 @@ metadata:
   name: cloudnative-pvc
   namespace: default
 spec:
+  storageClassName: "local-path"
   volumeName: cloudnative-pv
   accessModes:
     - ReadWriteOnce
