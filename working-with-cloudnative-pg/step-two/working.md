@@ -34,7 +34,7 @@ Service A service is an abstraction that exposes as a network service an applica
 The cloudnative pg chart requires a PVC to be accepted. To apply it, run the following command.
 
 ```bash
-kubectl apply -f 
+kubectl apply -f https://raw.githubusercontent.com/AbhijithGanesh/Killercoda-scenarios/master/working-with-cloudnative-pg/step-two/manifest.yaml
 ```
 
 ### Addition of the Postgres cluster
