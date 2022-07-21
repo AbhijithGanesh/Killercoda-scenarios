@@ -3,10 +3,12 @@ kind: PersistentVolume
 metadata:
   name: cloudnative-pv
 spec:
-  storageClassName: "local-path"
-  persistentVolumeReclaimPolicy: Retain
   capacity:
     storage: 1Gi
+  storageClassName: "local-path"
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
   claimRef:
     name: cloudnative-pvc
     namespace: default
