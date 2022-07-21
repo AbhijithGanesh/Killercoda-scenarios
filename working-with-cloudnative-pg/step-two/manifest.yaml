@@ -12,7 +12,7 @@ spec:
     - ReadWriteMany
   persistentVolumeReclaimPolicy: Retain
   claimRef:
-    name: cloudnative-pvc
+    name: cluster-example-1
     namespace: default
   local:
     path: /mnt/disk/ssd/
@@ -28,7 +28,7 @@ spec:
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: cloudnative-pvc
+  name: cluster-example-1
   namespace: default
 spec:
   storageClassName: "local-path"
