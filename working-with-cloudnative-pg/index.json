@@ -13,7 +13,7 @@
       },
       {
         "title": "Spinning up a new Postgres Cluster",
-        "foreground":"step-twp/rancher.sh",
+        "foreground":"step-two/rancher.sh",
         "text": "step-two/working.md"
       }
     ]
