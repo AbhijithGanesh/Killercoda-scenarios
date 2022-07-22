@@ -27,5 +27,3 @@ spec:
   # Require 1Gi of space
   storage:
     size: 500Mi" > cluster.yaml
-sleep 10
-kubectl apply -f cluster.yaml
