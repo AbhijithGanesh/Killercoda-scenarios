@@ -1,6 +1,6 @@
 {
   "title": "Working with Cloudnative Postgres Operator",
-  "description": "Understanding and working around",
+  "description": "Understanding and working around CloudNative Postgres Operator - Part One",
   "details": {
     "intro": {
       "text": "intro/introduction.md"
