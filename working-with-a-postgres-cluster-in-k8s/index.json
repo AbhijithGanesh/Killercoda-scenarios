@@ -1,6 +1,6 @@
 {
   "title": "Working with a Postgres Cluster",
-  "description": "Understanding and Working with the CloudNative Postgres. Part two of the CloudNative Postgres challenge",
+  "description": "Understanding and Working with the CloudNative Postgres. Part two of the challenge",
   "details": {
     "intro": {
       "text": "intro/introduction.md"
