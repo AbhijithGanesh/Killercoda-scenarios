@@ -11,7 +11,11 @@
         "text": "step-one/working.md",
         "background": "step-one/install.sh"
       }
-    ]
+    ],
+    "finish":{
+        "title":"Solving the challenge",
+        "text":"finish/finish.md"
+    }
   },
   "backend": {
     "imageid": "kubernetes-kubeadm-1node"
