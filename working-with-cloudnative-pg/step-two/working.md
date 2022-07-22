@@ -6,11 +6,11 @@ I am assuming you have some experience working with Kubernetes, even otherwise, 
 
 ## Kubernetes Glossary Terms
 
-- ### Persistent Volume Claim:
+- ### Persistent Volume Claim
 
 This is the extension of Kubernetes API that allows users to abstract claims of [Persistent Volume](https://kubernetes.io/docs/concepts/storage/persistent-volumes/). A PersistentVolumeClaim (PVC) is a request for storage by a user. It is similar to a Pod. Pods consume node resources and PVCs consume PV resources
 
-- ### Custom Resource Definition:
+- ### Custom Resource Definition
 
 This is the essential part of the operator that allows us to define custom API Resources (i.e Kubernetes API resources). A resource is an endpoint in the Kubernetes API that stores a collection of API objects of a certain kind; for example, the built-in pods resource contains a collection of Pod objects.
 
@@ -53,8 +53,9 @@ spec:
 ```
 
 Here the maximum resource limits for your kubernetes node is:
+
 `Kubeadm latest (atm 1.24) cluster with one controlplane, taint removed, ready to schedule workload 2GB environment`
 
-_Once configured you need to apply the command_
+**Once configured you need to apply the command**
 
 `kubectl apply -f <filename>.yaml`
