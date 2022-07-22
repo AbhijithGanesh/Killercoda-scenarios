@@ -1,0 +1,23 @@
+{
+  "title": "Working with a Postgres Cluster",
+  "description": "Part two of the CloudNative Postgres challenge",
+  "details": {
+    "intro": {
+      "text": "intro/introduction.md"
+    },
+    "steps": [
+      {
+        "title": "Checking the Cluster",
+        "text": "step-one/working.md",
+        "background": "step-one/install.sh"
+      }
+    ],
+    "finish": {
+      "title": "Jumping to the next challenge",
+      "text": "finish/finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
