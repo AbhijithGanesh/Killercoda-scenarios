@@ -11,3 +11,4 @@ kubectl apply -f https://raw.githubusercontent.com/rancher/local-path-provisione
 kubectl patch storageclass local-path -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}'
 kubectl apply -f https://raw.githubusercontent.com/cloudnative-pg/cloudnative-pg/release-1.16/releases/cnpg-1.16.0.yaml
 kubectl apply -f https://raw.githubusercontent.com/AbhijithGanesh/Killercoda-scenarios/master/working-with-cloudnative-pg/step-two/manifest.yaml
+clear
