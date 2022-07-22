@@ -15,6 +15,10 @@
         "title": "Spinning up a new Postgres Cluster",
         "foreground":"step-two/rancher.sh",
         "text": "step-two/working.md"
+      },
+      {
+        "title":"Forwarding your cluster",
+        "text":"step-three/introduction.md"
       }
     ]
   },

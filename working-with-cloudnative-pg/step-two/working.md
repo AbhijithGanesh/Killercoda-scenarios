@@ -49,7 +49,7 @@ spec:
 
   # Require 1Gi of space
   storage:
-    size: 1Gi
+    size: 500Mi
 ```
 
 Here the maximum resource limits for your kubernetes node is:
