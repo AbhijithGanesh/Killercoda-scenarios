@@ -9,7 +9,7 @@
       {
         "title": "Checking the Cluster",
         "text": "step-one/working.md",
-        "foreground": "step-one/install.sh"
+        "background": "step-one/install.sh"
       }
     ]
   },
