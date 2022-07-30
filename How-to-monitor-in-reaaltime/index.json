@@ -1,6 +1,6 @@
 {
-  "title": "A quick way to spin up Mongo DB in Kubernetes",
-  "description": "Let us deep dive into installing MongoDB",
+  "title": "Monitoring real time using Kubernetes",
+  "description": "Monitoring directly using Prometheus-Grafana stack",
   "details": {
     "intro": {
       "text": "introduction.md"

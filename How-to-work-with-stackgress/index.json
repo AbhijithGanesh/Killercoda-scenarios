@@ -1,6 +1,6 @@
 {
-  "title": "A quick way to spin up Mongo DB in Kubernetes",
-  "description": "Let us deep dive into installing MongoDB",
+  "title": "`Another flavour of Postgres on K8s",
+  "description": "Installing the stackgress io operator on kubernetes",
   "details": {
     "intro": {
       "text": "introduction.md"
