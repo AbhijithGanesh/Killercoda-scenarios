@@ -1,5 +1,5 @@
 {
-  "title": "`Another flavour of Postgres on K8s",
+  "title": "Another flavour of Postgres on K8s",
   "description": "Installing the stackgress io operator on kubernetes",
   "details": {
     "intro": {
