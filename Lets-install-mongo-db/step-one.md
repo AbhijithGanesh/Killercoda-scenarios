@@ -18,6 +18,5 @@ helm install my-db percona/psmdb-db
 ## Doing it from the manifest
 
 ```sh
-$ kubectl apply -f https://raw.githubusercontent.com/percona/percona-server-mongodb-operator/v1.12.0/deploy/cr-minimal.yaml
+> kubectl apply -f https://raw.githubusercontent.com/percona/percona-server-mongodb-operator/v1.12.0/deploy/cr-minimal.yaml
 ```
-
