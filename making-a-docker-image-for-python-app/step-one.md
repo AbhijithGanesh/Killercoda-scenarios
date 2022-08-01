@@ -10,4 +10,4 @@ To create a flask application, run the following command:
 
 Through this application we'll be able to serve our hello_world application!
 
-## You can replace this with any other flask application, you can choose to clone your repository over here.
+_\_You can replace this with any other flask application, you can choose to clone your repository over here._\_
