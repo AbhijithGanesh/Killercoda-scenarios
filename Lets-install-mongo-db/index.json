@@ -11,8 +11,11 @@
         "text": "step-one.md",
         "foreground": "helm.sh"
       },
-      {},
-      {}
+      { "title": "Accessing the database", "text": "step-two.md" },
+      {
+        "title": "Solving the challenge",
+        "text": "challenge.md"
+      }
     ],
     "finish": {
       "text": "finish.md"
