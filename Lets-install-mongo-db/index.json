@@ -5,7 +5,15 @@
     "intro": {
       "text": "introduction.md"
     },
-    "steps": [],
+    "steps": [
+      {
+        "title": "Installing the cluster",
+        "text": "step-one.md",
+        "background": "helm.sh"
+      },
+      {},
+      {}
+    ],
     "finish": {
       "text": "finish.md"
     }
