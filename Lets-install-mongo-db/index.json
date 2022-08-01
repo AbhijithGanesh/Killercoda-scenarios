@@ -9,7 +9,7 @@
       {
         "title": "Installing the cluster",
         "text": "step-one.md",
-        "background": "helm.sh"
+        "foreground": "helm.sh"
       },
       {},
       {}
