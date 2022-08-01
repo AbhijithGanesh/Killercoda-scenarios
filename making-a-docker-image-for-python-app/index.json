@@ -8,7 +8,8 @@
     "steps": [
       {
         "title": "Setting up flask",
-        "text": "step-one.md"
+        "text": "step-one.md",
+        "foreground": "create_flask.sh"
       },
       { "title": "Creating the dockerfile", "text": "step-two.md" }
     ],
