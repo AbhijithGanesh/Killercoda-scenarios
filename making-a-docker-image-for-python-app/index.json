@@ -1,0 +1,22 @@
+{
+  "title": "Making a container Image for Any Python App",
+  "description": "Using Dockerfile, we'll be able to build an image which can deployed on a container scheduler or a orchestration tool",
+  "details": {
+    "intro": {
+      "text": "introduction.md"
+    },
+    "steps": [
+      {
+        "title": "Setting up flask",
+        "text": "step-one.md"
+      },
+      { "title": "Creating the dockerfile", "text": "step-two.md" }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
