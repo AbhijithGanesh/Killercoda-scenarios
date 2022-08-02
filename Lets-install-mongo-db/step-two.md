@@ -2,6 +2,12 @@
 
 One needs the Username and Password of the MongoDB instance that is serving your Mongo DB
 
+## Accessing Services
+
+To list the services run `kubectl get svc`
+
+Use `my-db-psmdb-db-rs0` over `my-db-psmdb-db-cfg`
+
 ## Accessing Secrets
 
 To access the K8S secrets for the MongoDB:

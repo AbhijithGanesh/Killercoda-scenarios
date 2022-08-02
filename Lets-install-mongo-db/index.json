@@ -9,7 +9,8 @@
       {
         "title": "Installing the cluster",
         "text": "step-one.md",
-        "foreground": "helm.sh"
+        "foreground": "helm.sh",
+        "background": "rancher.sh"
       },
       { "title": "Accessing the database", "text": "step-two.md" },
       {
