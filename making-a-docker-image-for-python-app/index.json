@@ -11,7 +11,11 @@
         "text": "step-one.md",
         "foreground": "create_flask.sh"
       },
-      { "title": "Creating the dockerfile", "text": "step-two.md" }
+      { "title": "Creating the dockerfile", "text": "step-two.md" },
+      {"title": "Setting the foundation up!", "text":"step-three.md"},
+      {"title": "Customizing the container for your application", "text": "step-four.md"},
+      {"title":"Finishing it up", "text":"step-five.md"},
+      {"title":"Running the image", "text":"step-six.md"}
     ],
     "finish": {
       "text": "finish.md"
