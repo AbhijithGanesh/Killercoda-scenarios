@@ -3,7 +3,7 @@
 # Author: Abhijith Ganesh
 # Title: Installing a flask app
 
-apt install python3-pip
+apt install python3-pip -y
 python3 -m pip install flask
 pip install flask
 
@@ -14,11 +14,12 @@ from flask import Flask
 
 app = Flask(__name__)
 
-app.get("/")
+@app.get("/")
 def hello() -> str:
-    return "Hello World!"
+    return 'Hello World!'
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8000)
 " > helloworld.py
 
+pip install hypercorn
+
+pip freeze>requirements.txt
