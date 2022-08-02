@@ -15,4 +15,4 @@ from hypercorn.middleware import AsyncioWSGIMiddleware
 async_app = AsyncioWSGIMiddleware(app)
 ```
 
-_\_You can replace this with any other flask application, you can choose to clone your repository over here._\_
+**You can replace this with any other flask application, you can choose to clone your repository over here.**
