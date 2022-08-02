@@ -3,7 +3,7 @@
 # Author: Abhijith Ganesh
 # Title: Installing a flask app
 
-apt install python3-pip -Y
+apt install python3-pip -y
 python3 -m pip install flask
 pip install flask
 
