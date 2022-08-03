@@ -12,7 +12,7 @@ helm repo update
 Installing repository
 
 ```sh
-helm install my-db percona/psmdb-db
+helm install my-db percona/psmdb-db -f values.yaml
 ```
 
 ## Doing it from the manifest

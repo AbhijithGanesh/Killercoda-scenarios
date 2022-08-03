@@ -9,4 +9,13 @@ chmod 700 get_helm.sh
 ./get_helm.sh
 kubectl apply --server-side -f https://raw.githubusercontent.com/percona/percona-server-mongodb-operator/v1.12.0/deploy/bundle.yaml
 
-clear
+echo  "sharding:  
+  configsvrReplSet:
+    size: 2
+    cpu: "100Mi"
+    volumeSpec:
+      persistentVolumeClaim:
+        resources:
+          requests:
+            storage: "500Mi"
+" > values.yaml
