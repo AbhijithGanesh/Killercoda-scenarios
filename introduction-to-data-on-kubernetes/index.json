@@ -1,6 +1,6 @@
 {
-  "title": "Introduction to data on kubernetes.",
-  "description": "Understanding and working around CloudNative Postgres Operator - Part One",
+  "title": "Introduction to Data on Kubernetes.",
+  "description": "Unit One",
   "details": {
     "intro": {
       "text": "intro/introduction.md"
