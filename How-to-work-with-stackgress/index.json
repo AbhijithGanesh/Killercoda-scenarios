@@ -1,11 +1,15 @@
 {
   "title": "Another flavour of Postgres on K8s",
-  "description": "Installing the stackgress io operator on kubernetes",
+  "description": "Remotely connecting to a database",
   "details": {
     "intro": {
       "text": "introduction.md"
     },
-    "steps": [],
+    "steps": [
+      {
+        "title":""
+      }  
+    ],
     "finish": {
       "text": "finish.md"
     }
