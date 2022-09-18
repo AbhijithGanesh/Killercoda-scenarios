@@ -1,0 +1,17 @@
+{
+  "title": "Working with Cloudnative Postgres Operator",
+  "description": "Understanding and working around CloudNative Postgres Operator - Part Two",
+  "details": {
+    "intro": {
+      "text": "intro/introduction.md"
+    },
+    "steps": [],
+    "finish": {
+      "title": "Finishing up with Git",
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

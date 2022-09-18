@@ -1,0 +1,17 @@
+{
+  "title": "Practising docker and working with command line",
+  "description": "Through this scenario you'll be able to understand how to work with Docker/Podman",
+  "details": {
+    "intro": {
+      "text": "introduction.md"
+    },
+    "steps": [],
+    "finish": {
+      "title": "Finishing up",
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
