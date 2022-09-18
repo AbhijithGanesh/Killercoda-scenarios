@@ -1,6 +1,6 @@
 {
-  "title": "Working with Cloudnative Postgres Operator",
-  "description": "Understanding and working around CloudNative Postgres Operator - Part Two",
+  "title": "Working with Git",
+  "description": "Understanding how to work with Git for the MLOps Workshop",
   "details": {
     "intro": {
       "text": "intro/introduction.md"
