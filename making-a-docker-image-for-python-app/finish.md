@@ -10,4 +10,4 @@ The [community portal](https://explorersworlddok.gatsbyjs.io/)
 
 - [LinkedIn](https://linkedin.com/in/Abhijithganesh14/)
 - [Twitter](https://twitter.com/GaneshAbhijith)
-- [Website](https://abhijithganesh.tech)
+- [Website](https://abhijithganesh.com)

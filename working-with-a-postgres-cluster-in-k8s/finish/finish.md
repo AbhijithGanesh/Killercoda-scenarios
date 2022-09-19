@@ -6,7 +6,7 @@ Part of the challenge has the essential part of the solution, it will be release
 
 - [LinkedIn](https://linkedin.com/in/Abhijithganesh14/)
 - [Twitter](https://twitter.com/GaneshAbhijith)
-- [Website](https://abhijithganesh.tech)
+- [Website](https://abhijithganesh.com)
 
 ## Data on Kubernetes
 

@@ -8,7 +8,7 @@ Congratulations, you've completed some part of the challenge, _Don't forget to s
 
 - [LinkedIn](https://linkedin.com/in/Abhijithganesh14/)
 - [Twitter](https://twitter.com/GaneshAbhijith)
-- [Website](https://abhijithganesh.tech)
+- [Website](https://abhijithganesh.com)
 
 ### Data on Kubernetes
 

@@ -7,7 +7,7 @@ Working with the next challenge, [Working with a Postgres Cluster in Kubernetes]
 
 - [LinkedIn](https://linkedin.com/in/Abhijithganesh14/)
 - [Twitter](https://twitter.com/GaneshAbhijith)
-- [Website](https://abhijithganesh.tech)
+- [Website](https://abhijithganesh.com)
 
 ## Data on Kubernetes
 
