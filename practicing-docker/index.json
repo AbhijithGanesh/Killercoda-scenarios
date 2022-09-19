@@ -5,7 +5,20 @@
     "intro": {
       "text": "introduction.md"
     },
-    "steps": [],
+    "steps": [
+      {
+        "title": "Getting started with Docker",
+        "text": "step-one.md"
+      },
+      {
+        "title": "Making a hello world application",
+        "text": "step-two.md"
+      },
+      {
+        "title": "Building an Image and Testing it",
+        "text": "step-three.md"
+      }
+    ],
     "finish": {
       "title": "Finishing up",
       "text": "finish.md"
