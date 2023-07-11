@@ -1,0 +1,17 @@
+{
+  "title": "Mongo DB playground",
+  "description": "A playground for Mongo DB to practice CRUD and other lightweight Mongo DB functions",
+  "details": {
+    "intro": {
+      "text": "introduction.md"
+    },
+    "steps": [],
+    "finish": {
+      "title": "Finishing up!",
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
