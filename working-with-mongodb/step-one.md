@@ -3,7 +3,7 @@
 Wait for one minute before you start, there are background processes going on!
 
 To get started! Run
-
+( Copy paste the given commands into the shell )
 ```cmd
 apt install gnupg
 wget -qO- https://www.mongodb.org/static/pgp/server-6.0.asc | sudo tee /etc/apt/trusted.gpg.d/server-6.0.asc
