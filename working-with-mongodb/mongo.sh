@@ -3,6 +3,7 @@ wget -qO- https://www.mongodb.org/static/pgp/server-6.0.asc | sudo tee /etc/apt/
 sudo apt-get update
 sudo apt-get install -y mongodb-mongosh
 echo '
+version: "3"
 services:
    mongo:
       image: mongo
