@@ -3,10 +3,15 @@
   "description": "A playground for Mongo DB to practice CRUD and other lightweight Mongo DB functions",
   "details": {
     "intro": {
-      "background": "mongo.sh",
       "text": "introduction.md"
     },
-    "steps": [],
+    "steps": [
+      {
+        "title": "Enabled Playground",
+        "text": "step-one.md",
+        "background": "mongo.sh"
+      }
+    ],
     "finish": {
       "title": "Finishing up!",
       "text": "finish.md"
